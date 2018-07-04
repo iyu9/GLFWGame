@@ -1,0 +1,20 @@
+﻿2018/07/04 16:51:30 にビルドを開始しました。
+     1>ノード 2 上のプロジェクト "C:\Users\mobiledev\Source\Repos\GLTest\GLTest.vcxproj" (Build ターゲット)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /sdl- /Od /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt Scripts\main.cpp
+         main.cpp
+     1>c:\users\mobiledev\source\repos\gltest\scripts\gl\GLBmpLoader.hpp(40): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : 'fopen' の宣言を確認してください。
+     1>c:\users\mobiledev\source\repos\gltest\scripts\gl\GLBmpLoader.hpp(146): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : 'fopen' の宣言を確認してください。
+     1>c:\users\mobiledev\source\repos\gltest\scripts\gl\GLPngLoader.hpp(43): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : 'fopen' の宣言を確認してください。
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\mobiledev\Source\Repos\GLTest\x64\Debug\GLTest.exe" /INCREMENTAL /NOLOGO glfw3dll.lib glfw3.lib zlibwapi.lib zlibstat.lib zlib.lib libpng16.lib opengl32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\mobiledev\Source\Repos\GLTest\x64\Debug\GLTest.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\mobiledev\Source\Repos\GLTest\x64\Debug\GLTest.lib" /MACHINE:X64 x64\Debug\main.obj
+         x64\Debug\UnitTest.obj
+         GLTest.vcxproj -> C:\Users\mobiledev\Source\Repos\GLTest\x64\Debug\GLTest.exe
+     1>プロジェクト "C:\Users\mobiledev\Source\Repos\GLTest\GLTest.vcxproj" (Build ターゲット) のビルドが完了しました。
+
+ビルドに成功しました。
+
+経過時間 00:00:00.93

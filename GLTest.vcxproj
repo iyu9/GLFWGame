@@ -18,6 +18,36 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Scripts\main.cpp" />
+    <ClCompile Include="Scripts\UnitTest.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Scripts\Common\Common.hpp" />
+    <ClInclude Include="Scripts\Common\SaveManager.hpp" />
+    <ClInclude Include="Scripts\GLComponents\GLBmpLoader.hpp" />
+    <ClInclude Include="Scripts\GLComponents\GLBuiltInCallback.hpp" />
+    <ClInclude Include="Scripts\GLComponents\GLComponents.hpp" />
+    <ClInclude Include="Scripts\GLComponents\GLInput.hpp" />
+    <ClInclude Include="Scripts\GLComponents\GLObject.hpp" />
+    <ClInclude Include="Scripts\GLComponents\GLPngLoader.hpp" />
+    <ClInclude Include="Scripts\GLComponents\GLScene.hpp" />
+    <ClInclude Include="Scripts\GLComponents\GLShader.hpp" />
+    <ClInclude Include="Scripts\GLComponents\GLTimer.hpp" />
+    <ClInclude Include="Scripts\GLComponents\GLUtils.hpp" />
+    <ClInclude Include="Scripts\GLComponents\GLVec.hpp" />
+    <ClInclude Include="Scripts\Logic\Enemy.hpp" />
+    <ClInclude Include="Scripts\Logic\GridMap.hpp" />
+    <ClInclude Include="Scripts\Logic\Menu.hpp" />
+    <ClInclude Include="Scripts\Logic\MessageWindow.hpp" />
+    <ClInclude Include="Scripts\Logic\Physics.hpp" />
+    <ClInclude Include="Scripts\Logic\Player.hpp" />
+    <ClInclude Include="Scripts\View\ConfigView.hpp" />
+    <ClInclude Include="Scripts\View\InitView.hpp" />
+    <ClInclude Include="Scripts\View\MainView.hpp" />
+    <ClInclude Include="Scripts\View\TitleView.hpp" />
+    <ClInclude Include="Scripts\View\_TemplateView.hpp" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{91270176-44D3-4605-8CDF-510B678B9A78}</ProjectGuid>
     <RootNamespace>GLTest</RootNamespace>
@@ -125,31 +155,6 @@
       <OptimizeReferences>true</OptimizeReferences>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="main.cpp" />
-    <ClCompile Include="UnitTest.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="Common\Common.hpp" />
-    <ClInclude Include="GameLogic\Enemy.hpp" />
-    <ClInclude Include="GameLogic\GridMap.hpp" />
-    <ClInclude Include="GameLogic\Menu.hpp" />
-    <ClInclude Include="GameLogic\MessageWindow.hpp" />
-    <ClInclude Include="GameLogic\Physics.hpp" />
-    <ClInclude Include="GameLogic\Player.hpp" />
-    <ClInclude Include="GLComponents\GLBmpLoader.hpp" />
-    <ClInclude Include="GLComponents\GLBuiltInCallback.hpp" />
-    <ClInclude Include="GLComponents\GLComponents.hpp" />
-    <ClInclude Include="GLComponents\GLInput.hpp" />
-    <ClInclude Include="GLComponents\GLObject.hpp" />
-    <ClInclude Include="GLComponents\GLScene.hpp" />
-    <ClInclude Include="GLComponents\GLShader.hpp" />
-    <ClInclude Include="GLComponents\GLTimer.hpp" />
-    <ClInclude Include="GLComponents\GLUtils.hpp" />
-    <ClInclude Include="GLComponents\GLVec.hpp" />
-    <ClInclude Include="GLPngLoader.hpp" />
-    <ClInclude Include="SaveManager.hpp" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

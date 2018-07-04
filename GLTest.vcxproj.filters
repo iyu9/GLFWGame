@@ -13,75 +13,99 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="ヘッダー ファイル\GL">
-      <UniqueIdentifier>{9e8f7d67-94db-4bcb-9f63-94d57a42b1ca}</UniqueIdentifier>
-    </Filter>
     <Filter Include="ヘッダー ファイル\Logic">
-      <UniqueIdentifier>{fe2b6d32-27ae-4ef7-bfea-fb12837a8d77}</UniqueIdentifier>
+      <UniqueIdentifier>{ad26e96c-d888-438d-8138-b008fc29a987}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\View">
+      <UniqueIdentifier>{d6379925-be15-499e-afa0-ee00c7c2933f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\GL">
+      <UniqueIdentifier>{ef87535d-4e89-4984-8a71-898b9cfc6a65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Common">
+      <UniqueIdentifier>{c1302f3c-8925-4d25-a31e-e658db7ab85e}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp">
+    <ClCompile Include="Scripts\main.cpp">
       <Filter>ソース ファイル</Filter>
     </ClCompile>
-    <ClCompile Include="UnitTest.cpp">
+    <ClCompile Include="Scripts\UnitTest.cpp">
       <Filter>ソース ファイル</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Common\Common.hpp">
-      <Filter>ヘッダー ファイル</Filter>
+    <ClInclude Include="Scripts\View\_TemplateView.hpp">
+      <Filter>ヘッダー ファイル\View</Filter>
     </ClInclude>
-    <ClInclude Include="GLComponents\GLBmpLoader.hpp">
+    <ClInclude Include="Scripts\View\ConfigView.hpp">
+      <Filter>ヘッダー ファイル\View</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripts\View\InitView.hpp">
+      <Filter>ヘッダー ファイル\View</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripts\View\MainView.hpp">
+      <Filter>ヘッダー ファイル\View</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripts\View\TitleView.hpp">
+      <Filter>ヘッダー ファイル\View</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripts\GLComponents\GLBmpLoader.hpp">
       <Filter>ヘッダー ファイル\GL</Filter>
     </ClInclude>
-    <ClInclude Include="GLComponents\GLBuiltInCallback.hpp">
+    <ClInclude Include="Scripts\GLComponents\GLBuiltInCallback.hpp">
       <Filter>ヘッダー ファイル\GL</Filter>
     </ClInclude>
-    <ClInclude Include="GLComponents\GLComponents.hpp">
+    <ClInclude Include="Scripts\GLComponents\GLComponents.hpp">
       <Filter>ヘッダー ファイル\GL</Filter>
     </ClInclude>
-    <ClInclude Include="GLComponents\GLInput.hpp">
+    <ClInclude Include="Scripts\GLComponents\GLInput.hpp">
       <Filter>ヘッダー ファイル\GL</Filter>
     </ClInclude>
-    <ClInclude Include="GLComponents\GLObject.hpp">
+    <ClInclude Include="Scripts\GLComponents\GLObject.hpp">
       <Filter>ヘッダー ファイル\GL</Filter>
     </ClInclude>
-    <ClInclude Include="GLComponents\GLScene.hpp">
+    <ClInclude Include="Scripts\GLComponents\GLPngLoader.hpp">
       <Filter>ヘッダー ファイル\GL</Filter>
     </ClInclude>
-    <ClInclude Include="GLComponents\GLShader.hpp">
+    <ClInclude Include="Scripts\GLComponents\GLScene.hpp">
       <Filter>ヘッダー ファイル\GL</Filter>
     </ClInclude>
-    <ClInclude Include="GLComponents\GLTimer.hpp">
+    <ClInclude Include="Scripts\GLComponents\GLShader.hpp">
       <Filter>ヘッダー ファイル\GL</Filter>
     </ClInclude>
-    <ClInclude Include="GLComponents\GLUtils.hpp">
+    <ClInclude Include="Scripts\GLComponents\GLTimer.hpp">
       <Filter>ヘッダー ファイル\GL</Filter>
     </ClInclude>
-    <ClInclude Include="GLComponents\GLVec.hpp">
+    <ClInclude Include="Scripts\GLComponents\GLUtils.hpp">
       <Filter>ヘッダー ファイル\GL</Filter>
     </ClInclude>
-    <ClInclude Include="GameLogic\Enemy.hpp">
+    <ClInclude Include="Scripts\GLComponents\GLVec.hpp">
+      <Filter>ヘッダー ファイル\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripts\Logic\Enemy.hpp">
       <Filter>ヘッダー ファイル\Logic</Filter>
     </ClInclude>
-    <ClInclude Include="GameLogic\GridMap.hpp">
+    <ClInclude Include="Scripts\Logic\GridMap.hpp">
       <Filter>ヘッダー ファイル\Logic</Filter>
     </ClInclude>
-    <ClInclude Include="GameLogic\Menu.hpp">
+    <ClInclude Include="Scripts\Logic\Menu.hpp">
       <Filter>ヘッダー ファイル\Logic</Filter>
     </ClInclude>
-    <ClInclude Include="GameLogic\MessageWindow.hpp">
+    <ClInclude Include="Scripts\Logic\MessageWindow.hpp">
       <Filter>ヘッダー ファイル\Logic</Filter>
     </ClInclude>
-    <ClInclude Include="GameLogic\Physics.hpp">
+    <ClInclude Include="Scripts\Logic\Physics.hpp">
       <Filter>ヘッダー ファイル\Logic</Filter>
     </ClInclude>
-    <ClInclude Include="GameLogic\Player.hpp">
+    <ClInclude Include="Scripts\Logic\Player.hpp">
       <Filter>ヘッダー ファイル\Logic</Filter>
     </ClInclude>
-    <ClInclude Include="GLPngLoader.hpp">
-      <Filter>ヘッダー ファイル\GL</Filter>
+    <ClInclude Include="Scripts\Common\Common.hpp">
+      <Filter>ヘッダー ファイル\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripts\Common\SaveManager.hpp">
+      <Filter>ヘッダー ファイル\Common</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

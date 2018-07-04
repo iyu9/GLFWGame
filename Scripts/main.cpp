@@ -7,13 +7,13 @@
 #include "Common/Common.hpp"
 
 //include My GL Classes
-#include "GLComponents/GLComponents.hpp"
+#include "GL/GLComponents.hpp"
 
 //include My Scenes
-#include "MyView/InitView.hpp"
-#include "MyView/TitleView.hpp"
-#include "MyView/ConfigView.hpp"
-#include "MyView/MainView.hpp"
+#include "View/InitView.hpp"
+#include "View/TitleView.hpp"
+#include "View/ConfigView.hpp"
+#include "View/MainView.hpp"
 
 GLScene* currentScene;
 const GLIntVec2 g_winSize = {300, 300};
