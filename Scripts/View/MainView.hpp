@@ -1,5 +1,5 @@
-#ifndef __MAINVIEW_HPP__
-#define __MAINVIEW_HPP__
+#ifndef MAINVIEW_HPP
+#define MAINVIEW_HPP
 
 class MainView : public GLScene
 {

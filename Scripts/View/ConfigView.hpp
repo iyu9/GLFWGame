@@ -1,5 +1,5 @@
-#ifndef __CONFIGVIEW_HPP__
-#define __CONFIGVIEW_HPP__
+#ifndef CONFIGVIEW_HPP
+#define CONFIGVIEW_HPP
 
 class ConfigView : public GLScene
 {

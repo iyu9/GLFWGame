@@ -1,5 +1,5 @@
-#ifndef __TITLEVIEW_HPP__
-#define __TITLEVIEW_HPP__
+#ifndef TITLEVIEW_HPP
+#define TITLEVIEW_HPP
 
 class TitleView : public GLScene
 {

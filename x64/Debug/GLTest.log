@@ -1,7 +1,7 @@
-﻿2018/07/04 16:51:30 にビルドを開始しました。
+﻿2018/07/05 9:53:28 にビルドを開始しました。
      1>ノード 2 上のプロジェクト "C:\Users\mobiledev\Source\Repos\GLTest\GLTest.vcxproj" (Build ターゲット)。
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /sdl- /Od /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt Scripts\main.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /sdl- /Od /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt Scripts\View\IncViews.hpp Scripts\main.cpp
          main.cpp
      1>c:\users\mobiledev\source\repos\gltest\scripts\gl\GLBmpLoader.hpp(40): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : 'fopen' の宣言を確認してください。
@@ -9,12 +9,148 @@
                  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : 'fopen' の宣言を確認してください。
      1>c:\users\mobiledev\source\repos\gltest\scripts\gl\GLPngLoader.hpp(43): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : 'fopen' の宣言を確認してください。
-       Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\mobiledev\Source\Repos\GLTest\x64\Debug\GLTest.exe" /INCREMENTAL /NOLOGO glfw3dll.lib glfw3.lib zlibwapi.lib zlibstat.lib zlib.lib libpng16.lib opengl32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\mobiledev\Source\Repos\GLTest\x64\Debug\GLTest.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\mobiledev\Source\Repos\GLTest\x64\Debug\GLTest.lib" /MACHINE:X64 x64\Debug\main.obj
-         x64\Debug\UnitTest.obj
-         GLTest.vcxproj -> C:\Users\mobiledev\Source\Repos\GLTest\x64\Debug\GLTest.exe
-     1>プロジェクト "C:\Users\mobiledev\Source\Repos\GLTest\GLTest.vcxproj" (Build ターゲット) のビルドが完了しました。
+         IncViews.hpp
+     1>c:\users\mobiledev\source\repos\gltest\scripts\view\../Logic/Player.hpp(70): error C2039: 'string' : 'std' のメンバーではありません。
+     1>c:\users\mobiledev\source\repos\gltest\scripts\view\../Logic/Player.hpp(70): error C2146: 構文エラー : ';' が、識別子 'name' の前に必要です。
+     1>c:\users\mobiledev\source\repos\gltest\scripts\view\../Logic/Player.hpp(70): error C4430: 型指定子がありません - int と仮定しました。メモ: C++ は int を既定値としてサポートしていません
+     1>c:\users\mobiledev\source\repos\gltest\scripts\view\../Logic/Player.hpp(76): error C2039: 'string' : 'std' のメンバーではありません。
+     1>c:\users\mobiledev\source\repos\gltest\scripts\view\../Logic/Player.hpp(76): error C2061: 構文エラー : 識別子 'string'
+     1>c:\users\mobiledev\source\repos\gltest\scripts\view\../Logic/Player.hpp(79): error C2065: 'name' : 定義されていない識別子です。
+     1>c:\users\mobiledev\source\repos\gltest\scripts\view\../Logic/Player.hpp(79): error C2065: 'name_' : 定義されていない識別子です。
+     1>c:\users\mobiledev\source\repos\gltest\scripts\view\../Logic/Player.hpp(86): error C2039: 'vector' : 'std' のメンバーではありません。
+     1>c:\users\mobiledev\source\repos\gltest\scripts\view\../Logic/Player.hpp(86): error C2143: 構文エラー : ';' が '<' の前にありません。
+     1>c:\users\mobiledev\source\repos\gltest\scripts\view\../Logic/Player.hpp(86): error C4430: 型指定子がありません - int と仮定しました。メモ: C++ は int を既定値としてサポートしていません
+     1>c:\users\mobiledev\source\repos\gltest\scripts\view\../Logic/Player.hpp(86): error C2238: ';' の前に無効なトークンがあります。
+     1>c:\users\mobiledev\source\repos\gltest\scripts\view\../Logic/Player.hpp(96): error C2065: 'players' : 定義されていない識別子です。
+     1>c:\users\mobiledev\source\repos\gltest\scripts\view\../Logic/Player.hpp(96): error C2228: '.push_back' の左側はクラス、構造体、共用体でなければなりません
+                 型は 'unknown-type' です。
+     1>c:\users\mobiledev\source\repos\gltest\scripts\view\../Logic/Player.hpp(101): error C2065: 'players' : 定義されていない識別子です。
+     1>c:\users\mobiledev\source\repos\gltest\scripts\view\../Logic/Player.hpp(101): error C2228: '.pop_back' の左側はクラス、構造体、共用体でなければなりません
+                 型は 'unknown-type' です。
+     1>c:\users\mobiledev\source\repos\gltest\scripts\view\../Logic/Player.hpp(106): error C2065: 'players' : 定義されていない識別子です。
+     1>c:\users\mobiledev\source\repos\gltest\scripts\view\../Logic/Player.hpp(106): error C2228: '.clear' の左側はクラス、構造体、共用体でなければなりません
+                 型は 'unknown-type' です。
+     1>c:\users\mobiledev\source\repos\gltest\scripts\view\InitView.hpp(10): error C2504: 'GLScene' : 定義されていない基底クラスが宣言されています。
+     1>c:\users\mobiledev\source\repos\gltest\scripts\view\InitView.hpp(12): error C2143: 構文エラー : ';' が '*' の前にありません。
+     1>c:\users\mobiledev\source\repos\gltest\scripts\view\InitView.hpp(12): error C4430: 型指定子がありません - int と仮定しました。メモ: C++ は int を既定値としてサポートしていません
+     1>c:\users\mobiledev\source\repos\gltest\scripts\view\InitView.hpp(13): error C2143: 構文エラー : ';' が '*' の前にありません。
+     1>c:\users\mobiledev\source\repos\gltest\scripts\view\InitView.hpp(13): error C4430: 型指定子がありません - int と仮定しました。メモ: C++ は int を既定値としてサポートしていません
+     1>c:\users\mobiledev\source\repos\gltest\scripts\view\InitView.hpp(14): error C2143: 構文エラー : ';' が '*' の前にありません。
+     1>c:\users\mobiledev\source\repos\gltest\scripts\view\InitView.hpp(14): error C4430: 型指定子がありません - int と仮定しました。メモ: C++ は int を既定値としてサポートしていません
+     1>c:\users\mobiledev\source\repos\gltest\scripts\view\InitView.hpp(15): error C2143: 構文エラー : ';' が '*' の前にありません。
+     1>c:\users\mobiledev\source\repos\gltest\scripts\view\InitView.hpp(15): error C4430: 型指定子がありません - int と仮定しました。メモ: C++ は int を既定値としてサポートしていません
+     1>c:\users\mobiledev\source\repos\gltest\scripts\view\InitView.hpp(16): error C2143: 構文エラー : ';' が '*' の前にありません。
+     1>c:\users\mobiledev\source\repos\gltest\scripts\view\InitView.hpp(16): error C4430: 型指定子がありません - int と仮定しました。メモ: C++ は int を既定値としてサポートしていません
+     1>c:\users\mobiledev\source\repos\gltest\scripts\view\InitView.hpp(18): error C2143: 構文エラー : ';' が '*' の前にありません。
+     1>c:\users\mobiledev\source\repos\gltest\scripts\view\InitView.hpp(18): error C4430: 型指定子がありません - int と仮定しました。メモ: C++ は int を既定値としてサポートしていません
+     1>c:\users\mobiledev\source\repos\gltest\scripts\view\InitView.hpp(19): error C2143: 構文エラー : ';' が '*' の前にありません。
+     1>c:\users\mobiledev\source\repos\gltest\scripts\view\InitView.hpp(19): error C4430: 型指定子がありません - int と仮定しました。メモ: C++ は int を既定値としてサポートしていません
+     1>c:\users\mobiledev\source\repos\gltest\scripts\view\InitView.hpp(20): error C2143: 構文エラー : ';' が '*' の前にありません。
+     1>c:\users\mobiledev\source\repos\gltest\scripts\view\InitView.hpp(20): error C4430: 型指定子がありません - int と仮定しました。メモ: C++ は int を既定値としてサポートしていません
+     1>c:\users\mobiledev\source\repos\gltest\scripts\view\InitView.hpp(48): error C3668: 'InitView::Start' : オーバーライド指定子 'override' を伴うメソッドは、基底クラス メソッドをオーバーライドしませんでした
+     1>c:\users\mobiledev\source\repos\gltest\scripts\view\InitView.hpp(81): error C3668: 'InitView::Update' : オーバーライド指定子 'override' を伴うメソッドは、基底クラス メソッドをオーバーライドしませんでした
+     1>c:\users\mobiledev\source\repos\gltest\scripts\view\InitView.hpp(190): error C3668: 'InitView::Release' : オーバーライド指定子 'override' を伴うメソッドは、基底クラス メソッドをオーバーライドしませんでした
+     1>c:\users\mobiledev\source\repos\gltest\scripts\view\InitView.hpp(32): error C2614: 'InitView' : イニシャライズ リスト内のクラス 'GLScene' が基底クラスでもメンバーでもありません。
+     1>c:\users\mobiledev\source\repos\gltest\scripts\view\InitView.hpp(33): error C2653: 'GLScene' : 識別子がクラス名でも名前空間名でもありません。
+     1>c:\users\mobiledev\source\repos\gltest\scripts\view\InitView.hpp(39): error C2065: 'GLVec2' : 定義されていない識別子です。
+     1>c:\users\mobiledev\source\repos\gltest\scripts\view\InitView.hpp(39): error C2146: 構文エラー : ';' が、識別子 'div_pos' の前に必要です。
+     1>c:\users\mobiledev\source\repos\gltest\scripts\view\InitView.hpp(39): error C2065: 'div_pos' : 定義されていない識別子です。
+     1>c:\users\mobiledev\source\repos\gltest\scripts\view\InitView.hpp(40): error C2065: 'GLVec2' : 定義されていない識別子です。
+     1>c:\users\mobiledev\source\repos\gltest\scripts\view\InitView.hpp(40): error C2146: 構文エラー : ';' が、識別子 'div_siz' の前に必要です。
+     1>c:\users\mobiledev\source\repos\gltest\scripts\view\InitView.hpp(40): error C2065: 'div_siz' : 定義されていない識別子です。
+     1>c:\users\mobiledev\source\repos\gltest\scripts\view\InitView.hpp(41): error C2065: 'GLVec2' : 定義されていない識別子です。
+     1>c:\users\mobiledev\source\repos\gltest\scripts\view\InitView.hpp(41): error C2146: 構文エラー : ';' が、識別子 'pos' の前に必要です。
+     1>c:\users\mobiledev\source\repos\gltest\scripts\view\InitView.hpp(41): error C2065: 'pos' : 定義されていない識別子です。
+     1>c:\users\mobiledev\source\repos\gltest\scripts\view\InitView.hpp(43): error C2065: 'font' : 定義されていない識別子です。
+     1>c:\users\mobiledev\source\repos\gltest\scripts\view\InitView.hpp(43): error C2061: 構文エラー : 識別子 'GLObject'
+     1>c:\users\mobiledev\source\repos\gltest\scripts\view\InitView.hpp(44): error C2065: 'font' : 定義されていない識別子です。
+     1>c:\users\mobiledev\source\repos\gltest\scripts\view\InitView.hpp(44): error C2227: '->Set2DTexture' : 左側がクラス、構造体、共用体、ジェネリック型へのポインターではありません。
+                 型は 'unknown-type' です。
+     1>c:\users\mobiledev\source\repos\gltest\scripts\view\InitView.hpp(44): error C2065: 'bmp_font' : 定義されていない識別子です。
+     1>c:\users\mobiledev\source\repos\gltest\scripts\view\InitView.hpp(44): error C2227: '->texture' : 左側がクラス、構造体、共用体、ジェネリック型へのポインターではありません。
+                 型は 'unknown-type' です。
+     1>c:\users\mobiledev\source\repos\gltest\scripts\view\InitView.hpp(44): error C2065: 'div_pos' : 定義されていない識別子です。
+     1>c:\users\mobiledev\source\repos\gltest\scripts\view\InitView.hpp(44): error C2065: 'div_siz' : 定義されていない識別子です。
+     1>c:\users\mobiledev\source\repos\gltest\scripts\view\InitView.hpp(45): error C2065: 'font' : 定義されていない識別子です。
+     1>c:\users\mobiledev\source\repos\gltest\scripts\view\InitView.hpp(45): error C3861: 'AddScene': 識別子が見つかりませんでした
+     1>c:\users\mobiledev\source\repos\gltest\scripts\view\InitView.hpp(50): error C2653: 'GLScene' : 識別子がクラス名でも名前空間名でもありません。
+     1>c:\users\mobiledev\source\repos\gltest\scripts\view\InitView.hpp(52): error C2065: 'bmp_bg' : 定義されていない識別子です。
+     1>c:\users\mobiledev\source\repos\gltest\scripts\view\InitView.hpp(52): error C2061: 構文エラー : 識別子 'BMP'
+     1>c:\users\mobiledev\source\repos\gltest\scripts\view\InitView.hpp(53): error C2065: 'bmp_chara' : 定義されていない識別子です。
+     1>c:\users\mobiledev\source\repos\gltest\scripts\view\InitView.hpp(53): error C2061: 構文エラー : 識別子 'BMP'
+     1>c:\users\mobiledev\source\repos\gltest\scripts\view\InitView.hpp(57): error C2065: 'bg' : 定義されていない識別子です。
+     1>c:\users\mobiledev\source\repos\gltest\scripts\view\InitView.hpp(57): error C2061: 構文エラー : 識別子 'GLObject'
+     1>c:\users\mobiledev\source\repos\gltest\scripts\view\InitView.hpp(57): error C2143: 構文エラー : ';' が '{' の前にありません。
+     1>c:\users\mobiledev\source\repos\gltest\scripts\view\InitView.hpp(57): error C2143: 構文エラー : ';' が '}' の前にありません。
+     1>c:\users\mobiledev\source\repos\gltest\scripts\view\InitView.hpp(57): error C2143: 構文エラー : ';' が ',' の前にありません。
+     1>c:\users\mobiledev\source\repos\gltest\scripts\view\InitView.hpp(57): error C2059: 構文エラー : ')'
+     1>c:\users\mobiledev\source\repos\gltest\scripts\view\InitView.hpp(58): error C2143: 構文エラー : ';' が '->' の前にありません。
+     1>c:\users\mobiledev\source\repos\gltest\scripts\view\InitView.hpp(58): error C4430: 型指定子がありません - int と仮定しました。メモ: C++ は int を既定値としてサポートしていません
+     1>c:\users\mobiledev\source\repos\gltest\scripts\view\InitView.hpp(59): error C4430: 型指定子がありません - int と仮定しました。メモ: C++ は int を既定値としてサポートしていません
+     1>c:\users\mobiledev\source\repos\gltest\scripts\view\InitView.hpp(62): error C4430: 型指定子がありません - int と仮定しました。メモ: C++ は int を既定値としてサポートしていません
+     1>c:\users\mobiledev\source\repos\gltest\scripts\view\InitView.hpp(62): error C2061: 構文エラー : 識別子 'GLObject'
+     1>c:\users\mobiledev\source\repos\gltest\scripts\view\InitView.hpp(62): error C2143: 構文エラー : ';' が '{' の前にありません。
+     1>c:\users\mobiledev\source\repos\gltest\scripts\view\InitView.hpp(62): error C2143: 構文エラー : ')' が ';' の前にありません。
+     1>c:\users\mobiledev\source\repos\gltest\scripts\view\InitView.hpp(62): error C2447: '{' : 対応する関数ヘッダーがありません (旧形式の仮引数リスト?)
+     1>c:\users\mobiledev\source\repos\gltest\scripts\view\InitView.hpp(62): error C2059: 構文エラー : ','
+     1>c:\users\mobiledev\source\repos\gltest\scripts\view\InitView.hpp(62): error C2059: 構文エラー : ')'
+     1>c:\users\mobiledev\source\repos\gltest\scripts\view\InitView.hpp(63): error C2143: 構文エラー : ';' が '->' の前にありません。
+     1>c:\users\mobiledev\source\repos\gltest\scripts\view\InitView.hpp(63): error C4430: 型指定子がありません - int と仮定しました。メモ: C++ は int を既定値としてサポートしていません
+     1>c:\users\mobiledev\source\repos\gltest\scripts\view\InitView.hpp(63): error C2086: 'int player' : 再定義されました。
+                 c:\users\mobiledev\source\repos\gltest\scripts\view\InitView.hpp(62) : 'player' の宣言を確認してください。
+     1>c:\users\mobiledev\source\repos\gltest\scripts\view\InitView.hpp(65): error C4430: 型指定子がありません - int と仮定しました。メモ: C++ は int を既定値としてサポートしていません
+     1>c:\users\mobiledev\source\repos\gltest\scripts\view\InitView.hpp(65): error C2374: 'AddScene' : 再定義されています。2 回以上初期化されています。
+                 c:\users\mobiledev\source\repos\gltest\scripts\view\InitView.hpp(59) : 'AddScene' の宣言を確認してください。
+     1>c:\users\mobiledev\source\repos\gltest\scripts\view\InitView.hpp(68): error C4430: 型指定子がありません - int と仮定しました。メモ: C++ は int を既定値としてサポートしていません
+     1>c:\users\mobiledev\source\repos\gltest\scripts\view\InitView.hpp(68): error C2061: 構文エラー : 識別子 'GLObject'
+     1>c:\users\mobiledev\source\repos\gltest\scripts\view\InitView.hpp(68): error C2143: 構文エラー : ';' が '{' の前にありません。
+     1>c:\users\mobiledev\source\repos\gltest\scripts\view\InitView.hpp(68): error C2143: 構文エラー : ')' が ';' の前にありません。
+     1>c:\users\mobiledev\source\repos\gltest\scripts\view\InitView.hpp(68): error C2447: '{' : 対応する関数ヘッダーがありません (旧形式の仮引数リスト?)
+     1>c:\users\mobiledev\source\repos\gltest\scripts\view\InitView.hpp(68): error C2059: 構文エラー : ','
+     1>c:\users\mobiledev\source\repos\gltest\scripts\view\InitView.hpp(68): error C2059: 構文エラー : ')'
+     1>c:\users\mobiledev\source\repos\gltest\scripts\view\InitView.hpp(69): error C2143: 構文エラー : ';' が '->' の前にありません。
+     1>c:\users\mobiledev\source\repos\gltest\scripts\view\InitView.hpp(69): error C4430: 型指定子がありません - int と仮定しました。メモ: C++ は int を既定値としてサポートしていません
+     1>c:\users\mobiledev\source\repos\gltest\scripts\view\InitView.hpp(69): error C2086: 'int enemy1' : 再定義されました。
+                 c:\users\mobiledev\source\repos\gltest\scripts\view\InitView.hpp(68) : 'enemy1' の宣言を確認してください。
+     1>c:\users\mobiledev\source\repos\gltest\scripts\view\InitView.hpp(70): error C4430: 型指定子がありません - int と仮定しました。メモ: C++ は int を既定値としてサポートしていません
+     1>c:\users\mobiledev\source\repos\gltest\scripts\view\InitView.hpp(70): error C2374: 'AddScene' : 再定義されています。2 回以上初期化されています。
+                 c:\users\mobiledev\source\repos\gltest\scripts\view\InitView.hpp(59) : 'AddScene' の宣言を確認してください。
+     1>c:\users\mobiledev\source\repos\gltest\scripts\view\InitView.hpp(73): error C4430: 型指定子がありません - int と仮定しました。メモ: C++ は int を既定値としてサポートしていません
+     1>c:\users\mobiledev\source\repos\gltest\scripts\view\InitView.hpp(73): error C2061: 構文エラー : 識別子 'GLObject'
+     1>c:\users\mobiledev\source\repos\gltest\scripts\view\InitView.hpp(73): error C2143: 構文エラー : ';' が '{' の前にありません。
+     1>c:\users\mobiledev\source\repos\gltest\scripts\view\InitView.hpp(73): error C2143: 構文エラー : ')' が ';' の前にありません。
+     1>c:\users\mobiledev\source\repos\gltest\scripts\view\InitView.hpp(73): error C2447: '{' : 対応する関数ヘッダーがありません (旧形式の仮引数リスト?)
+     1>c:\users\mobiledev\source\repos\gltest\scripts\view\InitView.hpp(73): error C2059: 構文エラー : ','
+     1>c:\users\mobiledev\source\repos\gltest\scripts\view\InitView.hpp(73): error C2059: 構文エラー : ')'
+     1>c:\users\mobiledev\source\repos\gltest\scripts\view\InitView.hpp(74): error C2143: 構文エラー : ';' が '->' の前にありません。
+     1>c:\users\mobiledev\source\repos\gltest\scripts\view\InitView.hpp(74): error C4430: 型指定子がありません - int と仮定しました。メモ: C++ は int を既定値としてサポートしていません
+     1>c:\users\mobiledev\source\repos\gltest\scripts\view\InitView.hpp(74): error C2086: 'int enemy2' : 再定義されました。
+                 c:\users\mobiledev\source\repos\gltest\scripts\view\InitView.hpp(73) : 'enemy2' の宣言を確認してください。
+     1>c:\users\mobiledev\source\repos\gltest\scripts\view\InitView.hpp(75): error C4430: 型指定子がありません - int と仮定しました。メモ: C++ は int を既定値としてサポートしていません
+     1>c:\users\mobiledev\source\repos\gltest\scripts\view\InitView.hpp(75): error C2374: 'AddScene' : 再定義されています。2 回以上初期化されています。
+                 c:\users\mobiledev\source\repos\gltest\scripts\view\InitView.hpp(59) : 'AddScene' の宣言を確認してください。
+     1>c:\users\mobiledev\source\repos\gltest\scripts\view\InitView.hpp(79): error C2059: 構文エラー : '}'
+     1>c:\users\mobiledev\source\repos\gltest\scripts\view\InitView.hpp(79): error C2143: 構文エラー : ';' が '}' の前にありません。
+     1>c:\users\mobiledev\source\repos\gltest\scripts\view\InitView.hpp(82): error C2143: 構文エラー : ';' が '{' の前にありません。
+     1>c:\users\mobiledev\source\repos\gltest\scripts\view\InitView.hpp(82): error C2447: '{' : 対応する関数ヘッダーがありません (旧形式の仮引数リスト?)
+     1>c:\users\mobiledev\source\repos\gltest\scripts\view\InitView.hpp(116): error C2065: 'g_keyInput' : 定義されていない識別子です。
+     1>c:\users\mobiledev\source\repos\gltest\scripts\view\InitView.hpp(116): error C2228: '.GetKey' の左側はクラス、構造体、共用体でなければなりません
+                 型は 'unknown-type' です。
+     1>c:\users\mobiledev\source\repos\gltest\scripts\view\InitView.hpp(116): error C2065: 'GLFW_KEY_RIGHT' : 定義されていない識別子です。
+     1>c:\users\mobiledev\source\repos\gltest\scripts\view\InitView.hpp(118): error C2227: '->pos' : 左側がクラス、構造体、共用体、ジェネリック型へのポインターではありません。
+                 型は 'int' です。
+     1>c:\users\mobiledev\source\repos\gltest\scripts\view\InitView.hpp(118): error C2228: '.x' の左側はクラス、構造体、共用体でなければなりません
+     1>c:\users\mobiledev\source\repos\gltest\scripts\view\InitView.hpp(120): error C2065: 'g_keyInput' : 定義されていない識別子です。
+     1>c:\users\mobiledev\source\repos\gltest\scripts\view\InitView.hpp(120): error C2228: '.GetKey' の左側はクラス、構造体、共用体でなければなりません
+                 型は 'unknown-type' です。
+     1>c:\users\mobiledev\source\repos\gltest\scripts\view\InitView.hpp(120): error C2065: 'GLFW_KEY_LEFT' : 定義されていない識別子です。
+     1>c:\users\mobiledev\source\repos\gltest\scripts\view\InitView.hpp(122): error C2227: '->pos' : 左側がクラス、構造体、共用体、ジェネリック型へのポインターではありません。
+                 型は 'int' です。
+     1>c:\users\mobiledev\source\repos\gltest\scripts\view\InitView.hpp(122): error C2228: '.x' の左側はクラス、構造体、共用体でなければなりません
+     1>c:\users\mobiledev\source\repos\gltest\scripts\view\InitView.hpp(122): fatal error C1003: プログラム内のエラーが 100 個を超えました。コンパイルは中断されます。
+         コードを生成中...
+     1>プロジェクト "C:\Users\mobiledev\Source\Repos\GLTest\GLTest.vcxproj" (Build ターゲット) のビルドが終了しました -- 失敗。
 
-ビルドに成功しました。
+ビルドに失敗しました。
 
-経過時間 00:00:00.93
+経過時間 00:00:00.75

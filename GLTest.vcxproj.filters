@@ -33,6 +33,9 @@
     <ClCompile Include="Scripts\UnitTest.cpp">
       <Filter>ソース ファイル</Filter>
     </ClCompile>
+    <ClCompile Include="Scripts\View\IncViews.hpp">
+      <Filter>ヘッダー ファイル\View</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Scripts\View\_TemplateView.hpp">
@@ -49,39 +52,6 @@
     </ClInclude>
     <ClInclude Include="Scripts\View\TitleView.hpp">
       <Filter>ヘッダー ファイル\View</Filter>
-    </ClInclude>
-    <ClInclude Include="Scripts\GLComponents\GLBmpLoader.hpp">
-      <Filter>ヘッダー ファイル\GL</Filter>
-    </ClInclude>
-    <ClInclude Include="Scripts\GLComponents\GLBuiltInCallback.hpp">
-      <Filter>ヘッダー ファイル\GL</Filter>
-    </ClInclude>
-    <ClInclude Include="Scripts\GLComponents\GLComponents.hpp">
-      <Filter>ヘッダー ファイル\GL</Filter>
-    </ClInclude>
-    <ClInclude Include="Scripts\GLComponents\GLInput.hpp">
-      <Filter>ヘッダー ファイル\GL</Filter>
-    </ClInclude>
-    <ClInclude Include="Scripts\GLComponents\GLObject.hpp">
-      <Filter>ヘッダー ファイル\GL</Filter>
-    </ClInclude>
-    <ClInclude Include="Scripts\GLComponents\GLPngLoader.hpp">
-      <Filter>ヘッダー ファイル\GL</Filter>
-    </ClInclude>
-    <ClInclude Include="Scripts\GLComponents\GLScene.hpp">
-      <Filter>ヘッダー ファイル\GL</Filter>
-    </ClInclude>
-    <ClInclude Include="Scripts\GLComponents\GLShader.hpp">
-      <Filter>ヘッダー ファイル\GL</Filter>
-    </ClInclude>
-    <ClInclude Include="Scripts\GLComponents\GLTimer.hpp">
-      <Filter>ヘッダー ファイル\GL</Filter>
-    </ClInclude>
-    <ClInclude Include="Scripts\GLComponents\GLUtils.hpp">
-      <Filter>ヘッダー ファイル\GL</Filter>
-    </ClInclude>
-    <ClInclude Include="Scripts\GLComponents\GLVec.hpp">
-      <Filter>ヘッダー ファイル\GL</Filter>
     </ClInclude>
     <ClInclude Include="Scripts\Logic\Enemy.hpp">
       <Filter>ヘッダー ファイル\Logic</Filter>
@@ -104,7 +74,49 @@
     <ClInclude Include="Scripts\Common\Common.hpp">
       <Filter>ヘッダー ファイル\Common</Filter>
     </ClInclude>
-    <ClInclude Include="Scripts\Common\SaveManager.hpp">
+    <ClInclude Include="Scripts\GL\GLBmpLoader.hpp">
+      <Filter>ヘッダー ファイル\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripts\GL\GLBuiltInCallback.hpp">
+      <Filter>ヘッダー ファイル\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripts\GL\GLInput.hpp">
+      <Filter>ヘッダー ファイル\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripts\GL\GLObject.hpp">
+      <Filter>ヘッダー ファイル\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripts\GL\GLPngLoader.hpp">
+      <Filter>ヘッダー ファイル\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripts\GL\GLScene.hpp">
+      <Filter>ヘッダー ファイル\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripts\GL\GLShader.hpp">
+      <Filter>ヘッダー ファイル\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripts\GL\GLTimer.hpp">
+      <Filter>ヘッダー ファイル\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripts\GL\GLUtils.hpp">
+      <Filter>ヘッダー ファイル\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripts\GL\GLVec.hpp">
+      <Filter>ヘッダー ファイル\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripts\GL\IncGLComponents.hpp">
+      <Filter>ヘッダー ファイル\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripts\Logic\IncLogics.hpp">
+      <Filter>ヘッダー ファイル\Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripts\Common\GlobalData.hpp">
+      <Filter>ヘッダー ファイル\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripts\Common\IncCommon.hpp">
+      <Filter>ヘッダー ファイル\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripts\Common\Save.hpp">
       <Filter>ヘッダー ファイル\Common</Filter>
     </ClInclude>
   </ItemGroup>

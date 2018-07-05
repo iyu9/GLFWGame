@@ -4,26 +4,19 @@
 #endif
 
 #include <GLFW/glfw3.h>
-#include "Common/Common.hpp"
-
-//include My GL Classes
-#include "GL/GLComponents.hpp"
-
-//include My Scenes
-#include "View/InitView.hpp"
-#include "View/TitleView.hpp"
-#include "View/ConfigView.hpp"
-#include "View/MainView.hpp"
+#include "Common/IncCommon.hpp"
+#include "GL/IncGLComponents.hpp"
+#include "View/IncViews.hpp"
 
 GLScene* currentScene;
-const GLIntVec2 g_winSize = {300, 300};
-const GLIntVec2 g_winPos  = {1300, 640};
+const GLIntVec2 g_winSize = { 300, 300 };
+const GLIntVec2 g_winPos  = { 1300, 640 };
 
 int main()
 {
   if (!glfwInit())
   {
-    LOG("init failed");
+    LOG("FAILED init ");
     WaitInput();
     return 1;
   }
@@ -33,7 +26,7 @@ int main()
 
   if (!window)
   {
-    LOG("failed glfw3 create window");
+    LOG("FAILED create glfw3 window");
     WaitInput();
     glfwTerminate();
     return 1;

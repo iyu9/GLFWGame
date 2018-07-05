@@ -1,6 +1,6 @@
 #pragma once
-#ifndef __COMMON_HPP__
-#define __COMMON_HPP__
+#ifndef COMMON_HPP
+#define COMMON_HPP
 
 #include <iostream>
 #include <fstream>

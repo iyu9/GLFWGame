@@ -21,23 +21,27 @@
   <ItemGroup>
     <ClCompile Include="Scripts\main.cpp" />
     <ClCompile Include="Scripts\UnitTest.cpp" />
+    <ClCompile Include="Scripts\View\IncViews.hpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Scripts\Common\Common.hpp" />
-    <ClInclude Include="Scripts\Common\SaveManager.hpp" />
-    <ClInclude Include="Scripts\GLComponents\GLBmpLoader.hpp" />
-    <ClInclude Include="Scripts\GLComponents\GLBuiltInCallback.hpp" />
-    <ClInclude Include="Scripts\GLComponents\GLComponents.hpp" />
-    <ClInclude Include="Scripts\GLComponents\GLInput.hpp" />
-    <ClInclude Include="Scripts\GLComponents\GLObject.hpp" />
-    <ClInclude Include="Scripts\GLComponents\GLPngLoader.hpp" />
-    <ClInclude Include="Scripts\GLComponents\GLScene.hpp" />
-    <ClInclude Include="Scripts\GLComponents\GLShader.hpp" />
-    <ClInclude Include="Scripts\GLComponents\GLTimer.hpp" />
-    <ClInclude Include="Scripts\GLComponents\GLUtils.hpp" />
-    <ClInclude Include="Scripts\GLComponents\GLVec.hpp" />
+    <ClInclude Include="Scripts\Common\GlobalData.hpp" />
+    <ClInclude Include="Scripts\Common\IncCommon.hpp" />
+    <ClInclude Include="Scripts\Common\Save.hpp" />
+    <ClInclude Include="Scripts\GL\GLBmpLoader.hpp" />
+    <ClInclude Include="Scripts\GL\GLBuiltInCallback.hpp" />
+    <ClInclude Include="Scripts\GL\GLInput.hpp" />
+    <ClInclude Include="Scripts\GL\GLObject.hpp" />
+    <ClInclude Include="Scripts\GL\GLPngLoader.hpp" />
+    <ClInclude Include="Scripts\GL\GLScene.hpp" />
+    <ClInclude Include="Scripts\GL\GLShader.hpp" />
+    <ClInclude Include="Scripts\GL\GLTimer.hpp" />
+    <ClInclude Include="Scripts\GL\GLUtils.hpp" />
+    <ClInclude Include="Scripts\GL\GLVec.hpp" />
+    <ClInclude Include="Scripts\GL\IncGLComponents.hpp" />
     <ClInclude Include="Scripts\Logic\Enemy.hpp" />
     <ClInclude Include="Scripts\Logic\GridMap.hpp" />
+    <ClInclude Include="Scripts\Logic\IncLogics.hpp" />
     <ClInclude Include="Scripts\Logic\Menu.hpp" />
     <ClInclude Include="Scripts\Logic\MessageWindow.hpp" />
     <ClInclude Include="Scripts\Logic\Physics.hpp" />

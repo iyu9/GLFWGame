@@ -10,7 +10,7 @@ public:
   int hp;
   int hp_max;
   int mp;
-  int max_mp;
+  int mp_max;
   int cond;
 
   int atk_max;
@@ -56,7 +56,11 @@ class Skill
 {
 public:
   int id;
-  int val;
+  int type;
+
+  int val1;
+  int val2;
+  int val3;
 };
 
 class Player
